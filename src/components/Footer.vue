@@ -13,25 +13,34 @@ const toggleLocales = () => {
 
 <template>
   <nav class="text-xl mt-6">
-    <router-link class="icon-btn mx-2" to="/" :title="t('button.home')">
-      <carbon-campsite />
-    </router-link>
-
-    <a class="icon-btn mx-2" :title="t('button.toggle_dark')" @click="toggleDark">
-      <carbon-moon v-if="isDark" />
-      <carbon-sun v-else />
-    </a>
-
-    <a class="icon-btn mx-2" :title="t('button.toggle_langs')" @click="toggleLocales">
-      <carbon-language />
-    </a>
-
-    <router-link class="icon-btn mx-2" to="/about" :title="t('button.about')">
-      <carbon-dicom-overlay />
-    </router-link>
 
     <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/thnmtrn" target="_blank" title="GitHub">
       <carbon-logo-github />
+    </a>
+    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/thnmtrn" target="_blank" title="GitHub">
+      <carbon-logo-linkedin />
+    </a>
+    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/thnmtrn" target="_blank" title="GitHub">
+      <carbon-logo-instagram />
+    </a>
+    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/thnmtrn" target="_blank" title="GitHub">
+      <carbon-logo-twitter />
+    </a>
+    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/thnmtrn" target="_blank" title="GitHub">
+      <simple-icons-freecodecamp />
+    </a>
+    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/thnmtrn" target="_blank" title="GitHub">
+      <bi-discord />
+    </a>
+    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/thnmtrn" target="_blank" title="GitHub">
+      <grommet-icons:slack />
+    </a>
+
+    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/thnmtrn" target="_blank" title="GitHub">
+      <mdi-email-outline />
+    </a>
+    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/thnmtrn" target="_blank" title="GitHub">
+      <mdi-dev-to />
     </a>
   </nav>
 </template>
