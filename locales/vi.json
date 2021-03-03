@@ -1,7 +1,10 @@
 {
   "button": {
+    "about": "소개",
     "back": "Quay lại",
-    "go": "Đi"
+    "go": "Đi",
+    "blog": "Blog",
+    "projects": "Projects"
   },
   "intro": {
     "desc": "anh chàng trên internet",

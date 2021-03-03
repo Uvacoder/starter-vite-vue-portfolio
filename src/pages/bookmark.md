@@ -8,7 +8,7 @@ title: About
 </div>
 
 ### html
-* hmmm
+this is where i will bookmark useful info.
 
 
 

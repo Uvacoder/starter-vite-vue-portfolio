@@ -17,12 +17,12 @@ const toggleLocales = () => {
       <carbon-campsite />
     </router-link>
 
-    <a class="icon-btn mx-2" rel="noreferrer" href="https://thien.gg/blog" target="_blank" title="GitHub">
+    <a class="icon-btn mx-2" rel="noreferrer" href="https://thien.gg/blog" target="_blank" :title="t('button.blog')">
       <ion-journal-outline/>
     </a>
-    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/thnmtrn" target="_blank" title="GitHub">
-      <mdi-folder-open/>
-    </a>
+    <router-link class="icon-btn mx-2" to="/projects" :title="t('button.projects')">
+      <mdi-folder-open />
+    </router-link>
 
     <a class="icon-btn mx-2" :title="t('button.toggle_dark')" @click="toggleDark">
       <carbon-moon v-if="isDark" />

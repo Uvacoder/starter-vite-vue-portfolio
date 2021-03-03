@@ -4,6 +4,8 @@
     "back": "뒤로가기",
     "go": "이동",
     "home": "홈",
+    "blog": "Blog",
+    "projects": "Projects",
     "toggle_dark": "다크모드 토글",
     "toggle_langs": "언어 변경"
   },

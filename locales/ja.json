@@ -4,6 +4,8 @@
     "back": "戻る",
     "go": "進む",
     "home": "ホーム",
+    "blog": "Blog",
+    "projects": "Projects",
     "toggle_dark": "ダークモード切り替え",
     "toggle_langs": "言語切り替え"
   },

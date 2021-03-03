@@ -20,7 +20,7 @@ const { t } = useI18n()
       <carbon-campsite class="inline-block" />
     </p>
     <p>
-      <a rel="noreferrer" href="https://github.com/thnmtrn/home" target="_blank">
+      <a rel="noreferrer" href="https://thientran.me" target="_blank">
         thien
       </a>
     </p>
@@ -29,8 +29,9 @@ const { t } = useI18n()
     </p>
 
     <div class="py-4" />
-
-
+    <p>hi im thien</p>
+    <p>this is my homepage</p>
+    <p>i like things pretty minimalist. take a peek around. let me know what you think. Im always up for a chat.</p>
 
   </div>
 </template>

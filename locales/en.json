@@ -4,7 +4,9 @@
     "back": "Back",
     "go": "GO",
     "home": "Home",
-    "toggle_dark": "Toggle dark mode",
+    "blog": "Blog",
+    "projects": "Projects",
+    "toggle_dark": "Toggle Dark Mode",
     "toggle_langs": "Change languages"
   },
   "intro": {
